@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comments" syncable="YES">
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headPicture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weiboID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Longs" syncable="YES">
+        <attribute name="abstract" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="longWeibo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="PersonWeibo" syncable="YES">
+        <attribute name="bmiddle_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="forward" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="geo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="original_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repost_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repost_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repost_username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repostImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RecentContacts" syncable="YES">
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="times" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Comments" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="Longs" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="PersonWeibo" positionX="160" positionY="192" width="128" height="315"/>
+        <element name="RecentContacts" positionX="360" positionY="216" width="128" height="120"/>
+    </elements>
+</model>
